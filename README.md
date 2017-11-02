@@ -5,6 +5,8 @@ http://www.omnis.net/documentation/programming/index.jsp?detail=08sqlclass.html#
 
 For Omnis Studio 8.1.2 and above.
 
+The sqlquery.db file contains the data and should be placed at the same level as the library.
+
 ## Contents
 ### SQLquery
 This folder contains the source JSON files for the Omnis library in Github. 
