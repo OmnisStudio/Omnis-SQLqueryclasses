@@ -1,0 +1,2 @@
+Do $clib.$prefs.$rmouseevents.$assign(kTrue)
+Open window instance wQuery/CEN

@@ -1,0 +1,10 @@
+;  close the sqlite session 'Query'
+Do iSessObj.$logoff()
+Do iRow.$clear()
+
+;  enable the "Logon" push button and disable others
+Do $cwind.$objs.Logon.$enabled.$assign(kTrue)
+Do $cwind.$objs.Logoff.$enabled.$assign(kFalse)
+Do $cwind.$objs.Next.$enabled.$assign(kFalse)
+
+Do $cwind.$redraw()     ;; refresh window

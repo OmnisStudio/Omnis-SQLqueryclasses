@@ -1,0 +1,7 @@
+On evBefore     ;; Event Parameters - pRow ( Itemreference )
+	
+On evAfter     ;; Event Parameters - pClickedField, pClickedWindow, pMenuLine, pCommandNumber, pRow
+	
+	
+On evRMouseDown
+	Set reference iObjRef to $cobj

@@ -1,0 +1,27 @@
+{
+	"ident": 1027,
+	"order": 16389,
+	"objtype": "kLabel",
+	"properties": {
+		"align": "kRightJst",
+		"backcolor": "kColor3DFace",
+		"backpattern": 15,
+		"designactive": true,
+		"edgefloat": "kEFnone",
+		"fieldstyle": "CtrlLabel",
+		"font": 5,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorForeFill",
+		"height": 16,
+		"left": 5,
+		"objlink": 11,
+		"text": "Club ID :",
+		"textcolor": "kColorWindowText",
+		"top": 12,
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true,
+		"width": 70
+	}
+}

@@ -1,0 +1,79 @@
+[
+	{
+		"ident": 32001,
+		"order": 1,
+		"properties": {
+			"alias": "",
+			"colname": "PlayerID",
+			"desc": "",
+			"schema": "Players",
+			"userinfo": ""
+		}
+	},
+	{
+		"ident": 32002,
+		"order": 2,
+		"properties": {
+			"alias": "",
+			"colname": "PlayerName",
+			"desc": "",
+			"schema": "Players",
+			"userinfo": ""
+		}
+	},
+	{
+		"ident": 32006,
+		"order": 3,
+		"properties": {
+			"alias": "",
+			"colname": "PlayerAge",
+			"desc": "",
+			"schema": "Players",
+			"userinfo": ""
+		}
+	},
+	{
+		"ident": 32007,
+		"order": 4,
+		"properties": {
+			"alias": "",
+			"colname": "PlayerPosition",
+			"desc": "",
+			"schema": "Players",
+			"userinfo": ""
+		}
+	},
+	{
+		"ident": 32008,
+		"order": 5,
+		"properties": {
+			"alias": "PlayerClubID",
+			"colname": "ClubID",
+			"desc": "",
+			"schema": "Players",
+			"userinfo": ""
+		}
+	},
+	{
+		"ident": 32009,
+		"order": 6,
+		"properties": {
+			"alias": "",
+			"colname": "ClubID",
+			"desc": "",
+			"schema": "Clubs",
+			"userinfo": ""
+		}
+	},
+	{
+		"ident": 32010,
+		"order": 7,
+		"properties": {
+			"alias": "",
+			"colname": "ClubName",
+			"desc": "",
+			"schema": "Clubs",
+			"userinfo": ""
+		}
+	}
+]

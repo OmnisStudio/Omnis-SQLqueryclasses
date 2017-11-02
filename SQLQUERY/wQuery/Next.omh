@@ -1,0 +1,9 @@
+;  fetch the next row of data from the server into the row varaible 'iRow'
+Do iRow.$fetch() Returns lStatus
+If lStatus=kFetchFinished
+	;  we've already got the last record, lets go to the beginning again
+	Do iRow.$select()
+	Do iRow.$fetch() Returns lStatus
+End If
+
+Do $cwind.$redraw()     ;; refresh window

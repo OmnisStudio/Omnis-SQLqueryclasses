@@ -1,0 +1,27 @@
+{
+	"ident": 1024,
+	"order": 16387,
+	"objtype": "kLabel",
+	"properties": {
+		"align": "kRightJst",
+		"backcolor": "kColor3DFace",
+		"backpattern": 15,
+		"designactive": true,
+		"edgefloat": "kEFleftRight",
+		"fieldstyle": "CtrlLabel",
+		"font": 5,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorForeFill",
+		"height": 16,
+		"left": 205,
+		"objlink": 10,
+		"text": "Age :",
+		"textcolor": "kColorWindowText",
+		"top": 37,
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true,
+		"width": 50
+	}
+}

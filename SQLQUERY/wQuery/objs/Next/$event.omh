@@ -1,0 +1,6 @@
+On evClick     ;; Event Parameters - pRow( Itemreference )
+	Do method Next     ;; click on this line and press F8 to view the method 'Next'
+	
+	
+On evRMouseDown
+	Set reference iObjRef to $cobj

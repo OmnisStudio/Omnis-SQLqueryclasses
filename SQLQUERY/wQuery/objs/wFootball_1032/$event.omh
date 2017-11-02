@@ -1,0 +1,2 @@
+On evRMouseDown
+	Set reference iObjRef to $cobj

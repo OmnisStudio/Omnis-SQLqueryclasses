@@ -1,0 +1,6 @@
+On evClick     ;; Event Parameters - pRow( Itemreference )
+	Do method Logon     ;; click on this line and press F8 to view the method 'Logon'
+	
+	
+On evRMouseDown
+	Set reference iObjRef to $cobj

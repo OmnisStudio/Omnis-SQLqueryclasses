@@ -1,0 +1,30 @@
+{
+	"ident": 1040,
+	"order": 16392,
+	"objtype": "kText",
+	"properties": {
+		"align": "kLeftJst",
+		"backcolor": "kColor3DFace",
+		"backpattern": 15,
+		"designactive": true,
+		"edgefloat": "kEFrightBottom",
+		"fieldstyle": "CtrlLabel",
+		"font": 5,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorForeFill",
+		"height": 52,
+		"left": 10,
+		"objlink": 0,
+		"text": {
+			"type": 14,
+			"calc": "\u001B\u000180000008#This window demonstrates how to use an OMNIS Studio Query class to fetch and view select columns of data from two separate tables.  To view the code executed, context-click on the window or window object."
+		},
+		"textcolor": "kColorWindowText",
+		"top": 10,
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true,
+		"width": 435
+	}
+}

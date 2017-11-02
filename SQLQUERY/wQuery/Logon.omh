@@ -1,0 +1,33 @@
+;  find the path to this library file and substitute our sqlite database 'sqlquery.db' for the libary file name
+
+Calculate lPath as sys(10)
+Calculate lPath as con(mid(lPath,1,len(lPath)-3),'db')
+
+;  ram 22/4/16 - no longer required for cocoa
+;  open a sqlite session 'Query'
+;  If sys(6)='X'     ;; sqlite requires posix path on osx
+;  Do FileOps.$converthfspathtoposixpath(lPath,lPath)
+;  End If
+
+Do iSessObj.$logon(lPath,'','','QUERY') Returns #F
+If flag false
+	OK message  (Icon) {Could not locate 'sqlquery.db'.  Please ensure that 'sqlquery.db' is in the same directory as this example library and try again.}
+	Close library {[$clib().$name]}
+End If
+
+;  define the row variable from the query class 'Query'
+Do iRow.$definefromsqlclass('Query')
+Do iRow.$sessionobject.$assign(iSessObj)
+
+;  create initial select table
+Do iRow.$select('')
+
+;  fetch the first line of data from the select table
+Do iRow.$fetch() Returns lStatus
+
+;  disable the "Logon" push button and enable others
+Do $cwind.$objs.Logon.$enabled.$assign(kFalse)
+Do $cwind.$objs.Logoff.$enabled.$assign(kTrue)
+Do $cwind.$objs.Next.$enabled.$assign(kTrue)
+
+Do $cwind.$redraw()

@@ -1,0 +1,39 @@
+{
+	"classtype": "kMenu",
+	"internalversion": 3,
+	"designtaskname": "Startup_Task",
+	"nextident": 1009,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "iObjectRef",
+			"order": 1,
+			"type": "kItemref",
+			"subtype": "",
+			"sublen": 0
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2016-07-18 14:04:29",
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"enabled": true,
+		"external": false,
+		"helpfile": 0,
+		"helptext": "",
+		"inheritedorder": 0,
+		"issupercomponent": false,
+		"moddate": "2009-09-03 11:09:22",
+		"showascheckedout": false,
+		"title": "",
+		"userinfo": "",
+		"users": "12345678",
+		"version": "1"
+	}
+}
